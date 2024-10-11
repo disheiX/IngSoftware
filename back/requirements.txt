@@ -4,7 +4,7 @@ motor == 2.4.0
 openai
 python-dotenv==1.0.1
 fitz
-pymupdf
+PyMuPDF==1.16.14
 bcrypt
 pymongo[srv]
 pydantic
