@@ -1,10 +1,7 @@
 import './App.css';
 import SignIn from './components/auth/SignIn';
-import React, { useEffect, useState } from 'react';
-import Chat from './components/chatbot/chat';
 import PDFDragDrop from './components/selectPDF/selectPDF2';
-import ChatbotDataSelection from './components/ChatbotDataSelection';
-import { Router, Route, Routes, Navigate, useNavigate, useLocation } from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router-dom';
 
 import { useAuth } from './context/AuthContext';
 import ChatLayoutComponent from './components/sidebar';
